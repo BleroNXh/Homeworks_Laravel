@@ -48,7 +48,7 @@ class PizzaController extends Controller{
         $pizza->secondName = $req->secondName;
         $pizza->birthDate = $req->birthDate;
         $pizza->expireDate = $req->expireDate;
-        $pizza->image = $req->image;
+        $pizza->image = $req->image->store('public/image');
         $pizza->price = $req->price;
         $pizza->save();
 
