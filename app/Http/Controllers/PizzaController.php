@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Pizza;
-use Validator;
 class PizzaController extends Controller{
 
     public function show()
