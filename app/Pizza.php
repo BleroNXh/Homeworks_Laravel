@@ -9,8 +9,8 @@ class Pizza extends Model
     use HasFactory;
 public $timestamps=false;
 
-    public function findId(){
-       // return $this->id;
-    }
+//    public function findId(){
+//       // return $this->id;
+//    }
 
 }
